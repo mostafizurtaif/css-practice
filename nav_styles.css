@@ -1,0 +1,103 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bars {
+    float: left;
+    margin-right: 40px;
+}
+
+/* Vertical nav style begins */
+
+.vertical-nav {
+    list-style-type: none;
+    padding-left: 0;
+    width: 160px;
+}
+
+.vertical-nav li a {
+    display: block;
+    text-decoration: none;
+    background-color: #eee;
+    padding: 6px 12px;
+    color: #393e46;
+}
+
+.vertical-nav li a:hover {
+    background-color: #393e46;
+    color: #eee;
+}
+
+.vertical-nav li:first-child a {
+    background-color: #00adb5;
+    color: #eee;
+}
+
+.vertical-nav li:first-child a:hover {
+    background-color: teal;
+    color: #eee;
+}
+
+
+/* Vertical nav style ends */
+
+
+/* Horizontal nav style begins */
+.horizontal-nav {
+    list-style-type: none;
+    padding-left: 0;
+    width: 400px;
+}
+
+.horizontal-nav > li {
+    float: left;
+    width: 25%;
+}
+
+.horizontal-nav > li a {
+    display: block;
+    text-decoration: none;
+    background-color: #eee;
+    color: #393e46;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.horizontal-nav > li a:hover {
+    background-color: #393e46;
+    color: #eee;
+}
+
+.horizontal-nav > li:first-child a {
+    background-color: #00adb5;
+    color: #eee;    
+}
+
+.horizontal-nav > li:first-child a:hover {
+    background-color: teal;
+    color: #eee;    
+}
+
+.horizontal-nav::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+/* Horizontal nav style ends */
+
+
+/* Dropdown menu style begins */
+
+.dropdown-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    display: block;
+}
+
+/* Dropdown menu style ends */
